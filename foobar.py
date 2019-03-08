@@ -1,6 +1,6 @@
 #! /usr/bin/python3
 
-from printers import printNTimes
+from printers import printStringNTimes
 
 def printAABBABAB(strs):
     printStringNTimes(strs[0], 2)
