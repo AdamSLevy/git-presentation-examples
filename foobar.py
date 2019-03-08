@@ -1,9 +1,13 @@
 #! /usr/bin/python3
 
-for i in range(0, 2):
-    print("foo")
-for i in range(0, 2):
-    print("bar")
-for i in range(0, 2):
-    print("foo")
-    print("bar")
+def printStrings(strs):
+    for i in range(0, 2):
+        print(strs[0])
+    for i in range(0, 2):
+        print(strs[1])
+    for i in range(0, 2):
+        print(strs[0])
+        print(strs[1])
+
+strs = ["foo", "bar"]
+printStrings(strs)
