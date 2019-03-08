@@ -2,6 +2,8 @@
 
 from printers import printNTimes
 
+# Prints the pattern AABBABAB for two strings in an array, A and B,
+# respectively.
 def printPattern(strs):
     printNTimes(strs[0], 2)
     printNTimes(strs[1], 2)
