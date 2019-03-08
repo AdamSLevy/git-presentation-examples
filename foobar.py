@@ -1,9 +1,9 @@
 #! /usr/bin/python3
 
 for i in range(0, 2):
-    print("goo")
+    print("foo")
 for i in range(0, 2):
     print("bar")
 for i in range(0, 2):
-    print("goo")
+    print("foo")
     print("bar")
