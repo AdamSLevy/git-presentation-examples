@@ -1,10 +1,10 @@
 #! /usr/bin/python3
 
+from printers import printNTimes
+
 def printStrings(strs):
-    for i in range(0, 2):
-        print(strs[0])
-    for i in range(0, 2):
-        print(strs[1])
+    printNTimes(strs[0], 2)
+    printNTimes(strs[1], 2)
     for i in range(0, 2):
         print(strs[0])
         print(strs[1])
