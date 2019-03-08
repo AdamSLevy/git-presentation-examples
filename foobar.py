@@ -4,12 +4,12 @@ from printers import printNTimes
 
 # Prints the pattern AABBABAB for two strings in an array, A and B,
 # respectively.
-def printPattern(strs):
-    printNTimes(strs[0], 2)
-    printNTimes(strs[1], 2)
+def printAABBABAB(strs):
+    printStringNTimes(strs[0], 2)
+    printStringNTimes(strs[1], 2)
     for i in range(0, 2):
         print(strs[0])
         print(strs[1])
 
 strs = ["foo", "bar"]
-printPattern(strs)
+printAABBABAB(strs)
