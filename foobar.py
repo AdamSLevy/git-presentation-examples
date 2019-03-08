@@ -1,6 +1,6 @@
 #! /usr/bin/python3
 
-from printers import printNTimes
+from printers import printStringNTimes
 
 # Prints the pattern AABBABAB for two strings in an array, A and B,
 # respectively.
